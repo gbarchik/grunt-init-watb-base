@@ -1,0 +1,19 @@
+{
+	"name": "{%= name %}",
+	"version": "{%= version %}",
+	"authors": [
+		"{%= author_name %} <{%= author_email %}>"
+	],
+	"homepage": "",
+	"ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-scss": "~3.0.3",
+    "modernizr": "~2.8.3"
+  }
+}
